@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "PodQueue Blog"
 title_right   : "" # default: ""
-description   : "PodQueue.fm blog."
+description   : "PodQueue - \"Listen Later\" for audio"
 keywords      : "podqueue, podcast, podcasts, blog"
 url           : https://blog.podqueue.fm # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
