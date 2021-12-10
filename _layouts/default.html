@@ -5,6 +5,7 @@ published: true
 <!DOCTYPE html>
 <html>
   {% include head.html %}
+  {% if page.external_url %}<meta http-equiv="refresh" content="0; {{ page.external_url }}" />{% endif %}
   <body>
     <main class="wrapper">
       {% include header.html %}
