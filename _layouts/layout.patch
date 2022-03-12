@@ -1,6 +1,6 @@
---- layout	2022-03-12 09:36:54.000000000 -0500
-+++ default.html	2022-03-12 09:36:44.000000000 -0500
-@@ -1,21 +1,25 @@
+--- layout	2022-03-12 09:58:11.000000000 -0500
++++ default.html	2022-03-12 09:58:06.000000000 -0500
+@@ -1,25 +1,28 @@
 +---
 +published: true
 +---
@@ -30,7 +30,11 @@
  <meta property="og:type" content="link">
  <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
-@@ -35,22 +39,23 @@
+-<meta name="csrf-token" content="-RZw2AnlDOWSR2964efCqtOnAuNAl7r4RCEZMxWdH_4qoGfAk0dzmNkL1U6kAYrlBdF-ZLxS8T7BPTGFPTTplg" />
+     <meta name="csp-nonce" />
+ 
+     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/packs/css/application-4cfca462.chunk.css" data-turbo-track="reload" integrity="sha256-bYtgHhEpa+QmTbn7DXXM7VwuWKZ95iTAQOxAzKRmqdY=" media="screen" />
+@@ -36,22 +39,22 @@
      
    </head>
  
@@ -53,7 +57,6 @@
    <ul class="navbar-nav mt-2 mt-lg-0">
 -        <li class="nav-item me-2"><a class="nav-link p-2 text-dark" id="sign-up" href="/users/sign_up">Sign Up</a></li>
 -        <li class="nav-item"><a href="/users/sign_in" class="btn btn-outline-primary"><i class="fas fa-sign-in-alt"></i> Log In</a></li>
-+        <li class="nav-item me-4"><a class="nav-link p-2 text-muted" href="/feed.xml"><i class="fa-solid fa-rss"></i> RSS</a></li>
 +        <li class="nav-item me-2"><a class="nav-link p-2 text-dark" id="sign-up" href="https://podqueue.fm/users/sign_up">Sign Up</a></li>
 +        <li class="nav-item"><a href="https://podqueue.fm/users/sign_in" class="btn btn-outline-primary"><i class="fas fa-sign-in-alt"></i> Log In</a></li>
    </ul>
