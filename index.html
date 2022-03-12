@@ -17,13 +17,13 @@ title: Home
           <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
         {% endif %}
       {% endunless %}
-      <article class="post-item">
+      <article class="post-item d-flex flex-row flex-wrap mb-2">
         {% if post.external_url %}
-          <span class="article-title"><a class="post-link" href="{{ post.external_url }}">{{ post.title }}</a></span>
+          <span class="article-title flex-fill flex-grow-1"><a class="post-link" href="{{ post.external_url }}">{{ post.title }}</a></span>
         {% else %}
-          <span class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></span>
+          <span class="article-title flex-fill flex-grow-1"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></span>
         {% endif %}
-        <span class="post-meta date-label text-uppercase font-monospace float-end text-muted">{{ post.date | date: "%b %d" }}</span>
+        <span class="post-meta date-label text-uppercase pt-1 ms-2 font-monospace text-end flex-fill text-muted">{{ post.date | date: "%b %d" }}</span>
       </article>
     {% endfor %}
   </div>
