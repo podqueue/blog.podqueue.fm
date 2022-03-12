@@ -1,17 +1,105 @@
 ---
-layout: compress
 published: true
 ---
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
-  {% if page.external_url %}<meta http-equiv="refresh" content="0; {{ page.external_url }}" />{% endif %}
-  <body>
-    <main class="wrapper">
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | PodQueue Blog</title>
+    {% if page.external_url %}<meta http-equiv="refresh" content="0; {{ page.external_url }}" />{% endif %}
+<meta name="description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
+<meta name="keywords" content="podqueue, pod queue, listen later, podcasts, instapaper for podcasts, pocket for podcasts, instapaper for audio, pocket for audio, sideload, side load, let me add that to my playlist, podcast listen later, podcast bookmark, podq, podcue, pod cue, pod q,">
+<link rel="image_src" href="https://assets.podqueue.fm/podqueue.png">
+<link rel="manifest" href="manifest.json">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ page.title }} | PodQueue Blog">
+<meta name="twitter:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
+<meta name="twitter:site" content="@podqueue">
+<meta name="twitter:image" content="https://assets.podqueue.fm/podqueue.png">
+<meta property="og:title" content="{{ page.title }} | PodQueue Blog">
+<meta property="og:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
+<meta property="og:site_name" content="PodQueue Blog">
+<meta property="og:type" content="link">
+<meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="KLGusbznlhmjnKL0lxDFrmkjLpffxzRVnDWK2IuOvya6zmVdEXIXacCbBp1ZEvhCGZBIAlS-d1fB_9xqpAYpZg" />
+    <meta name="csp-nonce" />
+
+    <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/packs/css/application-62c3fd76.chunk.css" data-turbo-track="reload" integrity="sha256-bYtgHhEpa+QmTbn7DXXM7VwuWKZ95iTAQOxAzKRmqdY=" media="screen" />
+      <script src="https://assets.podqueue.fm/packs/js/runtime~application-fbbce738466b0fd4caf5.js" crossorigin="anonymous" media="all" data-turbo-track="reload" integrity="sha256-0kbQGypT80oL7oeS8CCgjhAKQhCGNQ0i+rnYMV02JBE="></script>
+<script src="https://assets.podqueue.fm/packs/js/vendors~application-4891bfdf5c328a8c69b0.chunk.js" crossorigin="anonymous" media="all" data-turbo-track="reload" integrity="sha256-AYsLtMbEQLbDZ4GUv5k0FT0we+xohc84ARpIK/1S/XM="></script>
+<script src="https://assets.podqueue.fm/packs/js/application-6c97f873b27bb48a2f95.chunk.js" crossorigin="anonymous" media="all" data-turbo-track="reload" integrity="sha256-8b3Im1StAoNC7ju4xPU43W6XWwkvTc4zirHlO88ZQg8="></script>
+
+    <link rel="preload" href="https://assets.podqueue.fm/packs/media/webfonts/fa-solid-900-4896d4b0.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://assets.podqueue.fm/packs/media/webfonts/fa-regular-400-d79c2ec9.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+
+    <meta name="format-detection" content="telephone=no">
+
+    
+  </head>
+
+  <body data-turbo="false">
+    <nav class="navbar navbar-expand navbar-light bg-white fixed-top border-bottom box-shadow" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-brand me-auto ms-3 ms-lg-0" role="heading" aria-level="1">
+      <a href="/" id="logo" class="text-dark navbar-link" data-turbo="false">
+        <picture>
+          <source srcset="https://assets.podqueue.fm/packs/media/images/podqueue-c5e1bf0fa73ef5373a73d9275f4fbc9f.svg" type="image/svg+xml">
+          <img src="https://assets.podqueue.fm/packs/media/images/podqueue-20-20-31396abf55d31559f606f3fe49dab101.png" alt="PodQueue Logo" class="img-fluid" width="20" height="20">
+        </picture>
+        <span>PodQueue Blog</span>
+      </a>
+    </div>
+      <div  id="navigation-links">
+  <ul class="navbar-nav mt-2 mt-lg-0">
+        <li class="nav-item me-2"><a class="nav-link p-2 text-dark" id="sign-up" href="https://podqueue.fm/users/sign_up">Sign Up</a></li>
+        <li class="nav-item"><a href="https://podqueue.fm/users/sign_in" class="btn btn-outline-primary"><i class="fas fa-sign-in-alt"></i> Log In</a></li>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+    <main class="container-fluid" role="main">
+      <noscript>
+  <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>Your browser does not support JavaScript or does not have JavaScript support enabled.</strong>
+    Many site functions will not work as expected. Please use a browser with JavaScript support enabled.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+</noscript>
+
+      
+      <turbo-frame aria-live="polite" id="flash">
+</turbo-frame>      {{ content }}
+
     </main>
-    {% include foot.html %}
+    <footer class="footer navbar-default pt-4 mb-5" role="contentinfo">
+  <div class="container-fluid">
+    <hr>
+    <div class="row">
+      <div class="col-4 text-start">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="https://podqueue.fm/pages/help">Help</a></li>
+          <li class="nav-item"><a href="https://status.podqueue.fm/" target="_blank">Status</a></li>
+          <li class="nav-item"><a href="https://twitter.com/podqueue/" target="_blank">Twitter</a></li>
+          <li class="nav-item"><a href="https://blog.podqueue.fm/" target="_blank">Blog</a></li>
+          <li class="nav-item"><a href="https://podqueue.creator-spring.com/" target="_blank">Merch</a></li>
+        </ul>
+      </div>
+      <div class="col-8 text-end">
+        <p class="text-muted"><small>Made with <i class="fas fa-heart" aria-hidden="true"></i><span class="visually-hidden">love</span> in <a href="https://www.discoverdurham.com/" target="_blank" class="text-muted">Durham, NC, USA</a></small></p>
+        <ul class="navbar-nav mt-4">
+          <li class="nav-item"><a href="https://podqueue.fm/pages/privacy">Privacy</a></li>
+          <li class="nav-item"><a href="https://podqueue.fm/pages/terms">Terms</a></li>
+          <li class="nav-item"><a href="https://podqueue.fm/pages/help/podcasters">Podcaster Info</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
   </body>
 </html>
