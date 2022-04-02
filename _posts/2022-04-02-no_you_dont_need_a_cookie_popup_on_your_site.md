@@ -26,4 +26,6 @@ The linked article then goes on to contrast these with other types of cookies (p
 
 Yes, this means you need to read up on the other kinds of cookies and ensure you're not using them. Yes, this may have technical implications for how you design your website. But the payoffs&mdash;respecting your users' privacy and avoiding annoying popups&mdash;are well worth the investment.
 
+---
+
 *Disclaimer: I am not a lawyer, and nothing in this post should be taken as legal advice.*
