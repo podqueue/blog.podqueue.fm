@@ -1,22 +1,41 @@
---- layout.orig	2023-05-12 11:27:06
-+++ default.html	2023-05-12 11:27:06
-@@ -2,7 +2,7 @@
- published: true
- ---
+--- layout.orig	2023-05-12 11:55:35
++++ default.html	2023-05-12 11:55:17
+@@ -1,56 +1,60 @@
++---
++published: true
++---
  <!DOCTYPE html>
--<html lang="en-US" data-bs-theme="light">
-+<html lang="en-US">
+ <html lang="en-US" data-bs-theme="light">
    <head>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-@@ -24,36 +24,37 @@
+-    <title>{{ page.title }} | PodQueue</title>
++    <title>{{ page.title }} | PodQueue Blog</title>
++    {% if page.external_url %}<meta http-equiv="refresh" content="0; {{ page.external_url }}" />{% endif %}
+ <meta name="description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
+ <meta name="keywords" content="podqueue, pod queue, listen later, podcasts, instapaper for podcasts, pocket for podcasts, instapaper for audio, pocket for audio, sideload, side load, let me add that to my playlist, podcast listen later, podcast bookmark, podq, podcue, pod cue, pod q,">
+ <link rel="image_src" href="https://assets.podqueue.fm/podqueue.png">
+-<link rel="manifest" href="/manifest.json">
+ <meta name="twitter:card" content="summary">
+-<meta name="twitter:title" content="{{ page.title }} | PodQueue">
++<meta name="twitter:title" content="{{ page.title }} | PodQueue Blog">
+ <meta name="twitter:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
+ <meta name="twitter:site" content="@podqueue">
+ <meta name="twitter:image" content="https://assets.podqueue.fm/podqueue.png">
+-<meta property="og:title" content="{{ page.title }} | PodQueue">
++<meta property="og:title" content="{{ page.title }} | PodQueue Blog">
+ <meta property="og:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
+-<meta property="og:site_name" content="PodQueue">
++<meta property="og:site_name" content="PodQueue Blog">
+ <meta property="og:type" content="link">
+ <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
      <meta name="csp-nonce" />
  
--    <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/packs/css/application-fd087f11.chunk.css" data-turbo-track="reload" integrity="sha256-lGGc7FtBcBcubQpBOY4HX1QhCBVmTjatfSfLEuIgE2c=" media="screen" />
+-    <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/packs/css/application-de8c1f3b.chunk.css" data-turbo-track="reload" integrity="sha256-lGGc7FtBcBcubQpBOY4HX1QhCBVmTjatfSfLEuIgE2c=" media="screen" />
 +    <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/packs/css/application-2ee23be3.chunk.css" data-turbo-track="reload" integrity="sha256-VbvPJSCwPvleeFFDlwTcNNIJohJsOZwu3dQfLp8NBjU=" media="screen" />
        <script src="https://assets.podqueue.fm/packs/js/runtime~application-dd42eebae942ecbe3124.js" crossorigin="anonymous" media="all" data-turbo-track="reload" integrity="sha256-95Sngds6oxYWzwNrmNeQDEIa5c+pzXm2XFRsfyOS4as="></script>
--<script src="https://assets.podqueue.fm/packs/js/vendors~application-d2aa0859eccf72d4962e.chunk.js" crossorigin="anonymous" media="all" data-turbo-track="reload" integrity="sha256-BftkPParpcta1ztkkkN7VKemQTwwIAHwRv483/Mt9Dk="></script>
+-<script src="https://assets.podqueue.fm/packs/js/vendors~application-c6dc8b538a1695e57c17.chunk.js" crossorigin="anonymous" media="all" data-turbo-track="reload" integrity="sha256-nZSNx8gbLppwH1MW1je/gftpjp0MIf8UtOXXiv4D6OU="></script>
 +<script src="https://assets.podqueue.fm/packs/js/vendors~application-96de97d909caec783dda.chunk.js" crossorigin="anonymous" media="all" data-turbo-track="reload" integrity="sha256-nt1ef1aD13nCzyMDvuJmEwWWkLlulRjm2y5U3oVG0MI="></script>
  <script src="https://assets.podqueue.fm/packs/js/application-0e47fb07962dbdcbf921.chunk.js" crossorigin="anonymous" media="all" data-turbo-track="reload" integrity="sha256-PnTXaC7dqheAq+MEk74lrNChwdX3KZbK0AexzAubvdQ="></script>
  
