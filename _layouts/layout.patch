@@ -1,6 +1,6 @@
---- layout.orig	2023-06-04 17:34:04
-+++ default.html	2023-06-04 17:34:57
-@@ -1,53 +1,56 @@
+--- layout.orig	2023-06-05 16:42:20
++++ default.html	2023-06-05 16:45:38
+@@ -1,49 +1,54 @@
 +---
 +published: true
 +---
@@ -31,23 +31,17 @@
  <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
      <meta name="csp-nonce" />
- 
--    <link rel="stylesheet" href="https://assets.podqueue.fm/assets/application-74d844d5551f89c05ed93b30055d4ecbf855638f.css" data-turbo-track="reload" media="screen" />
--    <link rel="stylesheet" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" media="screen" />
--    <script src="https://assets.podqueue.fm/assets/application-ad19dd7be0b0b1255cb06564a28768e600ae6a0f.js" data-turbo-track="reload" media="all" defer="defer"></script>
--    <script src="https://assets.podqueue.fm/assets/fontawesome-23c6e44c985e8bedb21202f6f58abac8c5c716f5.js" data-turbo-track="reload" media="all" defer="defer"></script>
-+    <link rel="stylesheet" href="https://assets.podqueue.fm/assets/application-74d844d5551f89c05ed93b30055d4ecbf855638f.css" data-turbo-track="reload" media="screen" crossorigin="anonymous" />
-+    <link rel="stylesheet" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" media="screen" crossorigin="anonymous" />
-+    <script src="https://assets.podqueue.fm/assets/application-ad19dd7be0b0b1255cb06564a28768e600ae6a0f.js" data-turbo-track="reload" media="all" defer="defer" crossorigin="anonymous"></script>
-+    <script src="https://assets.podqueue.fm/assets/fontawesome-23c6e44c985e8bedb21202f6f58abac8c5c716f5.js" data-turbo-track="reload" media="all" defer="defer" crossorigin="anonymous"></script>
- 
--
+-        <script src="https://assets.podqueue.fm/assets/honeybadger-1044b1503dc28761afb0e45eff2134a3c5a66b24.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
++
+     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-74d844d5551f89c05ed93b30055d4ecbf855638f.css" data-turbo-track="reload" media="screen" />
+     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" media="screen" />
+     <script src="https://assets.podqueue.fm/assets/application-ad19dd7be0b0b1255cb06564a28768e600ae6a0f.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
+     <script src="https://assets.podqueue.fm/assets/fontawesome-23c6e44c985e8bedb21202f6f58abac8c5c716f5.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
 +    <link rel="stylesheet" crossorigin="anonymous" href="/assets/css/rougify.css" data-turbo-track="reload" />
      <meta name="format-detection" content="telephone=no">
- 
++
      
    </head>
- 
 -  <body  >
 +  <body data-turbo="false">
      <nav class="navbar navbar-expand fixed-top border-bottom box-shadow" role="navigation">
@@ -57,13 +51,13 @@
 +      <a href="/" id="logo" class="navbar-link" data-turbo="false">
          <picture>
            <source srcset="https://assets.podqueue.fm/assets/podqueue-4518dbc1cb91be6986c4696158685834a03ae11d.svg" type="image/svg+xml">
-           <img src="https://assets.podqueue.fm/assets/podqueue-20-20-a97cd4cf66cd0dbc1ff30f382aa4a53b628a298c.png" alt="PodQueue Logo" class="img-fluid" width="20" height="20">
-         </picture>
--        <span>PodQueue</span>
-+        <span>PodQueue Blog</span>
-       </a>
-     </div>
-       <div  id="navigation-links">
+         <img src="https://assets.podqueue.fm/assets/podqueue-20-20-a97cd4cf66cd0dbc1ff30f382aa4a53b628a298c.png" alt="PodQueue Logo" class="img-fluid" width="20" height="20">
+       </picture>
+-      <span>PodQueue</span>
++      <span>PodQueue Blog</span>
+     </a>
+   </div>
+     <div  id="navigation-links">
    <ul class="navbar-nav mt-2 mt-lg-0">
 -        <li class="nav-item me-2"><a class="nav-link p-2" id="sign-up" href="/users/sign_up">Sign Up</a></li>
 -        <li class="nav-item"><a href="/users/sign_in" class="btn btn-outline-primary"><i class="fas fa-sign-in-alt"></i> Log In</a></li>
