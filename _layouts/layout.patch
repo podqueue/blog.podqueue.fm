@@ -1,6 +1,6 @@
---- layout.orig	2023-06-05 16:42:20
-+++ default.html	2023-06-05 16:45:38
-@@ -1,49 +1,54 @@
+--- layout.orig	2023-06-06 15:14:48
++++ default.html	2023-06-06 15:16:23
+@@ -1,49 +1,53 @@
 +---
 +published: true
 +---
@@ -31,7 +31,7 @@
  <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
      <meta name="csp-nonce" />
--        <script src="https://assets.podqueue.fm/assets/honeybadger-1044b1503dc28761afb0e45eff2134a3c5a66b24.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
+-        <script src="https://assets.podqueue.fm/assets/honeybadger-74917ef2bfeec9eebc42cee34f0b800ddf962b9a.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
 +
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-74d844d5551f89c05ed93b30055d4ecbf855638f.css" data-turbo-track="reload" media="screen" />
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" media="screen" />
@@ -39,7 +39,6 @@
      <script src="https://assets.podqueue.fm/assets/fontawesome-23c6e44c985e8bedb21202f6f58abac8c5c716f5.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
 +    <link rel="stylesheet" crossorigin="anonymous" href="/assets/css/rougify.css" data-turbo-track="reload" />
      <meta name="format-detection" content="telephone=no">
-+
      
    </head>
 -  <body  >
