@@ -1,5 +1,5 @@
---- layout.orig	2023-06-10 11:57:31
-+++ default.html	2023-06-10 11:57:31
+--- layout.orig	2023-06-12 14:47:29
++++ default.html	2023-06-12 14:47:29
 @@ -1,21 +1,24 @@
 +---
 +published: true
@@ -32,7 +32,7 @@
      <meta name="csrf-param" content="authenticity_token" />
 @@ -25,25 +28,26 @@
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" media="screen" />
-     <script src="https://assets.podqueue.fm/assets/application-ad19dd7be0b0b1255cb06564a28768e600ae6a0f.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
+     <script src="https://assets.podqueue.fm/assets/application-6a889b11f791bcbe1ab380b6c7f096e13aef66b0.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
      <script src="https://assets.podqueue.fm/assets/fontawesome-23c6e44c985e8bedb21202f6f58abac8c5c716f5.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
 +    <link rel="stylesheet" crossorigin="anonymous" href="/assets/css/rougify.css" data-turbo-track="reload" />
      <meta name="format-detection" content="telephone=no">
