@@ -1,5 +1,5 @@
---- layout.orig	2023-07-03 17:51:55
-+++ default.html	2023-07-03 17:51:55
+--- layout.orig	2023-07-03 18:25:46
++++ default.html	2023-07-03 18:25:46
 @@ -1,21 +1,24 @@
 +---
 +published: true
