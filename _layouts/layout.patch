@@ -32,7 +32,7 @@
      <meta name="csrf-param" content="authenticity_token" />
 @@ -24,25 +27,26 @@
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" media="screen" />
-     <script src="https://assets.podqueue.fm/assets/application-3f1b8acd2d406fb234de3d13fb85839e89517741.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
+     <script src="https://assets.podqueue.fm/assets/application-41969f6e94665c5e6f09d3e5bf6acfe6c4b3a214.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
      <script src="https://assets.podqueue.fm/assets/fontawesome-9285065adb1df91c9bbfd3724b31084d2fab7d07.js" crossorigin="anonymous" data-turbo-track="reload" media="all" defer="defer"></script>
 +    <link rel="stylesheet" crossorigin="anonymous" href="/assets/css/rougify.css" data-turbo-track="reload" />
      <meta name="format-detection" content="telephone=no">
