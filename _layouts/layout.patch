@@ -30,7 +30,7 @@
  <meta property="og:type" content="link">
  <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
-@@ -24,25 +27,26 @@
+@@ -23,25 +26,26 @@
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" />
      <script src="https://assets.podqueue.fm/assets/application-8877e229a835c13aa953f62431c80efd7ca27340.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
      <script src="https://assets.podqueue.fm/assets/fontawesome-9285065adb1df91c9bbfd3724b31084d2fab7d07.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
