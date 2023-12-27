@@ -1,6 +1,6 @@
 --- layout.orig
 +++ default.html
-@@ -1,21 +1,24 @@
+@@ -1,49 +1,53 @@
 +---
 +published: true
 +---
@@ -28,9 +28,11 @@
 -<meta property="og:site_name" content="PodQueue">
 +<meta property="og:site_name" content="PodQueue Blog">
  <meta property="og:type" content="link">
+-<meta property="og:url" content="https://podqueue.fm/welcome/layout">
++<meta property="og:url" content="{{ page.url | absolute_url }}">
  <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
-@@ -23,26 +26,27 @@
+     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-0cf7956885a196c53771055ebb4652e828292c6b.css" data-turbo-track="reload" />
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" />
      <script src="https://assets.podqueue.fm/assets/application-a0f1b6d0e1e0cf8927bc0ce165cca103d6fcc62f.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
      <script src="https://assets.podqueue.fm/assets/fontawesome-f6fdecfae5cc8b339e2595a045c4c36f588a14e4.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
