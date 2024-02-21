@@ -32,9 +32,9 @@
 +<meta property="og:url" content="{{ page.url | absolute_url }}">
  <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
-     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-0cf7956885a196c53771055ebb4652e828292c6b.css" data-turbo-track="reload" />
+     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-5055e6dfb418c913d3da61920c4a2a466736f086.css" data-turbo-track="reload" />
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" />
-     <script src="https://assets.podqueue.fm/assets/application-0221e91229cc35aa26f1dd5db976f5010c5b23b8.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
+     <script src="https://assets.podqueue.fm/assets/application-e77cd45a2a4a5425f45fa60294bdd1d52a694391.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
      <script src="https://assets.podqueue.fm/assets/fontawesome-f1d1e3ad6d344c8c1a36591c142c753964359c37.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
 +    <link rel="stylesheet" crossorigin="anonymous" href="/assets/css/rougify.css" data-turbo-track="reload" />
      <meta name="format-detection" content="telephone=no">
