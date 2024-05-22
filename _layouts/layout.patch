@@ -32,10 +32,10 @@
 +<meta property="og:url" content="{{ page.url | absolute_url }}">
  <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
-     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-5055e6dfb418c913d3da61920c4a2a466736f086.css" data-turbo-track="reload" />
-     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644d3bf176f574b56f8075c83c187ab67c4.css" data-turbo-track="reload" />
-     <script src="https://assets.podqueue.fm/assets/application-a30137c769120fd6a6795142a92b5d501f6454c5.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
-     <script src="https://assets.podqueue.fm/assets/fontawesome-b0c4f6653fc0670e8b42aa18da5adcd207a0434b.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
+     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-5055e6df.css" data-turbo-track="reload" />
+     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644.css" data-turbo-track="reload" />
+     <script src="https://assets.podqueue.fm/assets/application-a30137c7.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
+     <script src="https://assets.podqueue.fm/assets/fontawesome-b0c4f665.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
 +    <link rel="stylesheet" crossorigin="anonymous" href="/assets/css/rougify.css" data-turbo-track="reload" />
      <meta name="format-detection" content="telephone=no">
      <meta name="theme-color" content="#006a4e">
@@ -49,8 +49,10 @@
 -      <a href="https://podqueue.fm/" id="logo" class="navbar-link" data-turbo="false">
 +      <a href="/" id="logo" class="navbar-link" data-turbo="false">
          <picture>
-           <source srcset="https://assets.podqueue.fm/assets/podqueue-4518dbc1cb91be6986c4696158685834a03ae11d.svg" type="image/svg+xml">
-         <img src="https://assets.podqueue.fm/assets/podqueue-20-20-a97cd4cf66cd0dbc1ff30f382aa4a53b628a298c.png" alt="PodQueue Logo" class="img-fluid" width="20" height="20">
+-          <source srcset="https://assets.podqueue.fm/assets/podqueue-4518dbc1.svg" type="image/svg+xml">
+-        <img src="https://assets.podqueue.fm/assets/podqueue-20-20-a97cd4cf.png" alt="PodQueue Logo" class="img-fluid" width="20" height="20">
++          <source srcset="https://assets.podqueue.fm/assets/podqueue-4518dbc1cb91be6986c4696158685834a03ae11d.svg" type="image/svg+xml">
++        <img src="https://assets.podqueue.fm/assets/podqueue-20-20-a97cd4cf66cd0dbc1ff30f382aa4a53b628a298c.png" alt="PodQueue Logo" class="img-fluid" width="20" height="20">
        </picture>
 -      <span>PodQueue</span>
 +      <span>PodQueue Blog</span>
