@@ -35,7 +35,7 @@
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-258f5e63.css" data-turbo-track="reload" />
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644.css" data-turbo-track="reload" />
      <script src="https://assets.podqueue.fm/assets/application-9f0c488b.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
-     <script src="https://assets.podqueue.fm/assets/fontawesome-b88ec437.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
+     <script src="https://assets.podqueue.fm/assets/fontawesome-fdb29535.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
 +    <link rel="stylesheet" crossorigin="anonymous" href="/assets/css/rougify.css" data-turbo-track="reload" />
      <meta name="format-detection" content="telephone=no">
      <meta name="theme-color" content="#006a4e">
