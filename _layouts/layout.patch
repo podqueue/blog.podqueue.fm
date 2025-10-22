@@ -1,6 +1,6 @@
 --- layout.orig
 +++ default.html
-@@ -1,49 +1,52 @@
+@@ -1,46 +1,52 @@
 +---
 +published: true
 +---
@@ -10,31 +10,38 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 -    <title>{{ page.title }} | PodQueue</title>
+-<meta name="description" content="The Missing &quot;Listen Later&quot; for Audio on the Web." />
+-<meta name="keywords" content="podqueue, pod queue, listen later, podcasts, instapaper for podcasts, pocket for podcasts, instapaper for audio, pocket for audio, sideload, side load, let me add that to my playlist, podcast listen later, podcast bookmark, podq, podcue, pod cue, pod q," />
+-<link rel="image_src" href="https://assets.podqueue.fm/podqueue.png" />
+-<meta property="og:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web." />
+-<meta property="og:type" content="link" />
+-<meta property="og:url" content="https://podqueue.fm/welcome/layout" />
+-<meta property="og:image" content="https://assets.podqueue.fm/podqueue.png" />
+-<meta name="twitter:card" content="summary" />
+-<meta name="twitter:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web." />
+-<meta name="twitter:site" content="@podqueue" />
+-<meta name="twitter:image" content="https://assets.podqueue.fm/podqueue.png" />
+-<meta name="manifest" content="/manifest.json" />
 +    <title>{{ page.title }} | PodQueue Blog</title>
 +    {% if page.external_url %}<meta http-equiv="refresh" content="0; {{ page.external_url }}" />{% endif %}
- <meta name="description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
- <meta name="keywords" content="podqueue, pod queue, listen later, podcasts, instapaper for podcasts, pocket for podcasts, instapaper for audio, pocket for audio, sideload, side load, let me add that to my playlist, podcast listen later, podcast bookmark, podq, podcue, pod cue, pod q,">
- <link rel="image_src" href="https://assets.podqueue.fm/podqueue.png">
--<link rel="manifest" href="/manifest.json">
- <meta name="twitter:card" content="summary">
--<meta name="twitter:title" content="{{ page.title }} | PodQueue">
++<meta name="description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
++<meta name="keywords" content="podqueue, pod queue, listen later, podcasts, instapaper for podcasts, pocket for podcasts, instapaper for audio, pocket for audio, sideload, side load, let me add that to my playlist, podcast listen later, podcast bookmark, podq, podcue, pod cue, pod q,">
++<link rel="image_src" href="https://assets.podqueue.fm/podqueue.png">
++<meta name="twitter:card" content="summary">
 +<meta name="twitter:title" content="{{ page.title }} | PodQueue Blog">
- <meta name="twitter:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
- <meta name="twitter:site" content="@podqueue">
- <meta name="twitter:image" content="https://assets.podqueue.fm/podqueue.png">
--<meta property="og:title" content="{{ page.title }} | PodQueue">
++<meta name="twitter:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
++<meta name="twitter:site" content="@podqueue">
++<meta name="twitter:image" content="https://assets.podqueue.fm/podqueue.png">
 +<meta property="og:title" content="{{ page.title }} | PodQueue Blog">
- <meta property="og:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
--<meta property="og:site_name" content="PodQueue">
++<meta property="og:description" content="The Missing &quot;Listen Later&quot; for Audio on the Web.">
 +<meta property="og:site_name" content="PodQueue Blog">
- <meta property="og:type" content="link">
--<meta property="og:url" content="https://podqueue.fm/welcome/layout">
++<meta property="og:type" content="link">
 +<meta property="og:url" content="{{ page.url | absolute_url }}">
- <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
++<meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-c35a72fb.css" data-turbo-track="reload" />
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644.css" data-turbo-track="reload" />
-     <script src="https://assets.podqueue.fm/assets/application-a673d6e3.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
+     <script src="https://assets.podqueue.fm/assets/application-9d8534eb.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
      <script src="https://assets.podqueue.fm/assets/fontawesome-51eff918.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
 +    <link rel="stylesheet" crossorigin="anonymous" href="/assets/css/rougify.css" data-turbo-track="reload" />
      <meta name="format-detection" content="telephone=no">
