@@ -32,10 +32,10 @@
 +<meta property="og:url" content="{{ page.url | absolute_url }}">
  <meta property="og:image" content="https://assets.podqueue.fm/podqueue.png">
      <meta name="csrf-param" content="authenticity_token" />
-     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-c35a72fb.css" data-turbo-track="reload" />
+     <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/application-ae36863b.css" data-turbo-track="reload" />
      <link rel="stylesheet" crossorigin="anonymous" href="https://assets.podqueue.fm/assets/fontawesome-70827644.css" data-turbo-track="reload" />
-     <script src="https://assets.podqueue.fm/assets/application-3f51ad84.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
-     <script src="https://assets.podqueue.fm/assets/fontawesome-c45b0c25.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
+     <script src="https://assets.podqueue.fm/assets/application-1376e88c.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
+     <script src="https://assets.podqueue.fm/assets/fontawesome-56e2e749.js" crossorigin="anonymous" data-turbo-track="reload" defer="defer"></script>
 +    <link rel="stylesheet" crossorigin="anonymous" href="/assets/css/rougify.css" data-turbo-track="reload" />
      <meta name="format-detection" content="telephone=no">
      <meta name="theme-color" content="#006a4e">
@@ -49,10 +49,8 @@
 -      <a href="https://podqueue.fm/" id="logo" class="navbar-link" data-turbo="false">
 +      <a href="/" id="logo" class="navbar-link" data-turbo="false">
          <picture>
--          <source srcset="https://assets.podqueue.fm/assets/podqueue-4518dbc1.svg" type="image/svg+xml">
--        <img src="https://assets.podqueue.fm/assets/podqueue-20-20-a97cd4cf.png" alt="PodQueue Logo" class="img-fluid" width="20" height="20">
-+          <source srcset="https://assets.podqueue.fm/assets/podqueue-4518dbc1cb91be6986c4696158685834a03ae11d.svg" type="image/svg+xml">
-+        <img src="https://assets.podqueue.fm/assets/podqueue-20-20-a97cd4cf66cd0dbc1ff30f382aa4a53b628a298c.png" alt="PodQueue Logo" class="img-fluid" width="20" height="20">
+           <source srcset="https://assets.podqueue.fm/assets/podqueue-4518dbc1.svg" type="image/svg+xml">
+         <img src="https://assets.podqueue.fm/assets/podqueue-20-20-a97cd4cf.png" alt="PodQueue Logo" class="img-fluid" width="20" height="20">
        </picture>
 -      <span>PodQueue</span>
 +      <span>PodQueue Blog</span>
